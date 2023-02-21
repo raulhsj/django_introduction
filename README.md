@@ -31,5 +31,7 @@ pip install django
 Watch out for the command, because it is `django-admin`, and then
 
 ```
-django-admin startproject <my_project>
+django-admin startproject <my_project> .
 ```
+
+Without the dot at the end, folder <my_project> will be duplicated
